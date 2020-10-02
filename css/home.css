@@ -440,3 +440,10 @@ h2 {
     display: none;
   }
 }
+
+/* footer */
+
+#main-footer {
+  background: #000;
+  color:white;
+}
