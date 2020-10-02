@@ -34,3 +34,25 @@ h5.card-title{
 #footer a {
     padding: 0.8rem;
 }
+.img-thumbnail {
+  width: 100%;
+}
+
+#background {
+  background: rgb(36, 35, 35);
+  color: rgb(0, 225, 255);
+  border-radius: 15px;
+}
+
+#background h1 {
+  text-transform: uppercase;
+  font-family: 'Krona One', sans-serif;
+}
+#background p {
+  font-size: 1.3em;
+  font-family: 'David Libre', serif;
+}
+
+.btn.btn-primary.mb-3 {
+  width: 100%;
+}
