@@ -34,3 +34,26 @@ h5.card-title{
 #footer a {
     padding: 0.8rem;
 }
+
+/* Footer css start */
+
+.footer {
+	background-color: #dddddd;
+	height: 30vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.footer div {
+	flex: 0.9;
+	align-content: center;
+	align-items: center;
+}
+
+.footer p {
+	margin: 0;
+	padding: 10;
+}
+
+/* Footer css end*/
