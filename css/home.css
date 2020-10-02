@@ -440,3 +440,8 @@ h2 {
     display: none;
   }
 }
+
+/*paddings in between logos*/
+#footer a {
+  padding: 0.8rem;
+}
