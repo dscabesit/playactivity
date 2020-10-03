@@ -1,42 +1,42 @@
 # playactivity
-*fork a repo <br>
-*clone it
+ *fork a repo <br>
+ *clone it
 
-<br>
-#How to Contribute
+
+# How to Contribute
 
 *Fork the Repository
 <br>
 *Clone the Forked repository
 
-#git clone:
+### git clone:
  *https://github.com/<USER_NAME>/<REPO_NAME>
 Add Scripts and necessary changes.
 
-git add:
+### git add:
 <br>*Commit the changes.
 
-git commit -m "MESSAGE":
+### git commit -m "MESSAGE":
 <br>*Push to your branch.
 
-git push:
+### git push:
 <br>*Raise a Pull Request to the parent Repository.
 
-#Syncing a fork:
+# Syncing a fork:
 
 <br>*Fetch the changes made in upstream.
 
-git fetch upstream:
+### git fetch upstream:
 <br>*Merge the changes from upstream/master into your local master branch.
 
-git merge upstream/master:
+### git merge upstream/master:
 <br>*Push to your branch.
 
-git push.
+### git push.
 
-<br>
-any issue contact 
-<br>
-[Linkedin](https://www.linkedin.com/in/hari-om-kushwaha-6a698a192)
-<br>
-[instagram](_itzhari__)
+
+# any issue contact 
+
+### [Linkedin](https://www.linkedin.com/in/hari-om-kushwaha-6a698a192)
+
+### [instagram](_itzhari__)
