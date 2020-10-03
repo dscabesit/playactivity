@@ -34,3 +34,56 @@ h5.card-title{
 #footer a {
     padding: 0.8rem;
 }
+
+
+.search-container {
+  background: #fff;
+  height: 30px;
+  border-radius: 30px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.8s;
+  box-shadow: 4px 4px 6px 0 rgba(255,255,255,.3),
+  -4px -4px 6px 0 rgba(116,125,136,.3),
+ inset -4px -4px 6px 0 rgba(255,255,255,.3),
+  inset 4px 4px 6px 0 rgba(0,0,0,.2);
+
+}
+
+.search-container ::placeholder {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.search-container:hover > .search-input{
+width: 400px;
+}
+
+.search-container .search-input{
+  background:transparent;
+  border: none;
+  outline: none;
+  width: 0px;
+  font-weight: 500;
+  font-size: 16px;
+  transition: 0.8s;
+}
+
+.search-container .search-btn .fas{
+  color: #5cbdbb;
+}
+
+
+@keyframes hoverShake{
+  0%{transform:skew(0deg,0deg);}
+  25%{transform:skew(5deg,5deg);}
+  75%{transform:skew(-5deg,-5deg);}
+  100%{transform:skew(0deg,0deg);}
+
+
+}
+
+.search-container:hover{
+  animation: hoverShake 0.15s linear 3;
+}
