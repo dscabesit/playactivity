@@ -1,42 +1,45 @@
-# playactivity
-*fork a repo <br>
-*clone it
+#  Hello There, Welcome to Playactivity
+***
 
-<br>
-#How to Contribute
+<img src="https://user-images.githubusercontent.com/70543351/94982827-87984c00-055b-11eb-85ec-737733e88061.png" width="600" height="300" />
 
-*Fork the Repository
-<br>
-*Clone the Forked repository
+***
 
-#git clone:
- *https://github.com/<USER_NAME>/<REPO_NAME>
+
+* Fork a Repo
+* Clone It
+
+
+## How to Contribute
+
+* Fork the Repository
+* Clone the Forked repository
+
+# Git clone:
+ * https://github.com/<USER_NAME>/<REPO_NAME>
 Add Scripts and necessary changes.
 
-git add:
-<br>*Commit the changes.
+##### Git Add :-
+* Commit the changes.
 
-git commit -m "MESSAGE":
-<br>*Push to your branch.
+##### Git commit -m "MESSAGE":
+* Push to your branch.
 
-git push:
-<br>*Raise a Pull Request to the parent Repository.
+#### Git Push:
+* Raise a Pull Request to the parent Repository.
 
-#Syncing a fork:
+## Syncing a fork:
 
-<br>*Fetch the changes made in upstream.
+* Fetch the changes made in upstream.
 
-git fetch upstream:
-<br>*Merge the changes from upstream/master into your local master branch.
+Git Fetch Upstream:
+* Merge the changes from upstream/master into your local master branch.
 
-git merge upstream/master:
-<br>*Push to your branch.
+Git merge upstream/master:
+* Push to your branch.
 
-git push.
+Git push.
 
-<br>
-any issue contact 
-<br>
-[Linkedin](https://www.linkedin.com/in/hari-om-kushwaha-6a698a192)
-<br>
-[instagram](_itzhari__)
+Any issue then contact us in the below links. <br/>
+[Linkedin](https://www.linkedin.com/in/hari-om-kushwaha-6a698a192 "Hari Om") <br/>
+[instagram](_itzhari__ "Hari Om")
