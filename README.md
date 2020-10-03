@@ -1,36 +1,35 @@
 # playactivity
- *fork a repo <br>
- *clone it
+#### *fork a repo <br>
+#### *clone it
 
 
 # How to Contribute
 
 *Fork the Repository
-<br>
 *Clone the Forked repository
 
 ### git clone:
- *https://github.com/<USER_NAME>/<REPO_NAME>
+ *https://github.com/ravi9607/playactivity.git<br>
 Add Scripts and necessary changes.
 
 ### git add:
-<br>*Commit the changes.
+*Commit the changes.
 
 ### git commit -m "MESSAGE":
-<br>*Push to your branch.
+*Push to your branch.
 
 ### git push:
-<br>*Raise a Pull Request to the parent Repository.
+*Raise a Pull Request to the parent Repository.
 
 # Syncing a fork:
 
-<br>*Fetch the changes made in upstream.
+*Fetch the changes made in upstream.
 
 ### git fetch upstream:
-<br>*Merge the changes from upstream/master into your local master branch.
+*Merge the changes from upstream/master into your local master branch.
 
 ### git merge upstream/master:
-<br>*Push to your branch.
+*Push to your branch.
 
 ### git push.
 
