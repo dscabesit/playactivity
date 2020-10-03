@@ -1,42 +1,14 @@
-# playactivity
-*fork a repo <br>
-*clone it
+# PlayActivity
 
-<br>
-#How to Contribute
+Play activity allows users to engage in various activities such as sports, music, dance and games and encourages them to participate in them as well.
 
-*Fork the Repository
-<br>
-*Clone the Forked repository
+You can find it live [here](https://raymondbelamo.github.io/playactivity/)
 
-#git clone:
- *https://github.com/<USER_NAME>/<REPO_NAME>
-Add Scripts and necessary changes.
+## Contributing to PlayActivity
 
-git add:
-<br>*Commit the changes.
-
-git commit -m "MESSAGE":
-<br>*Push to your branch.
-
-git push:
-<br>*Raise a Pull Request to the parent Repository.
-
-#Syncing a fork:
-
-<br>*Fetch the changes made in upstream.
-
-git fetch upstream:
-<br>*Merge the changes from upstream/master into your local master branch.
-
-git merge upstream/master:
-<br>*Push to your branch.
-
-git push.
-
-<br>
-any issue contact 
-<br>
-[Linkedin](https://www.linkedin.com/in/hari-om-kushwaha-6a698a192)
-<br>
-[instagram](_itzhari__)
+If you would like to contribute to this project please read the [guidelines on contributing](.github/CONTRIBUTING.md) before doing so. You can clone the repository by running the following command to set up your local repository:
+  ```
+  git clone https://github.com/raymondbelamo/playactivity.git
+  ```
+Make your contributions, commit the changes and open up a pull request.
+  
