@@ -1,46 +1,50 @@
 <!DOCTYPE html>
 <html>
 <head>  
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="css/home.css">
-<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
-<title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Home</title>
 </head>
 <body>
-
-
-  <div class="hold">
-  <div class="header">
-    <div class="container">
-      <div id="logo">
-        <h2 class="font-italic">
-          Play
-          <span class="badge badge-primary shadow">Activity</span>
-        </h2>
-      </div>
-      <ul class="nav">
-        <li><a href="#">Sports</a></li>
-        <li><a href="#">Music</a></li>
-        <li><a href="#">Dance</a></li>
-        <li><a href="#">Game</a></li>
-      </ul>
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand mr-auto" href="#">Play Activity</a>
+            <div class="collapse navbar-collapse" id="Navbar">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link active" href="./home.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./music.html"><span class="fa fa-music fa-lg "></span> Music</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./dance.html"><span class="fa fa-child fa-lg"></span> Dance</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./game.html"><span class="fa fa-gamepad fa-lg"></span> Game</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./sport.html"><span class="fa fa-baseball fa-lg"></span> Sports</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--header-->
+    <header class="jumbotron">
+        <div class="container">
+            <div class="row row-header">
+                <div class="col-6 col-md-6">
+                    <h1>Play Activity</h1>
+                    <p>Lets fill our lives with some fun and health!</p>
+                </div>
+                <div class="col-6 col-md-6">
+                    <img src="https://lh3.googleusercontent.com/cm1MoUrCybl64HOBAAcQMkgsNQAEuP3INmcj_cMY4hQXXDF1JxxCV6g2E857lEVLoqRZ13Nitv_ZGA07bGsR0A=w780" alt="PlayActivity" width="100%"/>
+                </div>
+            </div>
+            <div class="col-12 col-sm">
+            </div>
+        </div>
     </div>
-  </div>
-</div>
-<div class="section">
-  <div class="slider">
-    <div class="container slidercontent">
-      <h1 class="hero" style="transform: translate(394px, 38px);">Play<br>Activity</h1>
-      
-     <!--  <img src="https://lh3.googleusercontent.com/proxy/HhzRertGgfPRDcGP94ebdoTiGBU1lNW6CpUxufDtkM1MYlUcK7LMtytZE1byYUQSb6ryex7-vfeL6wsBnGRNOlQW4Bu8QLPGlrUFf5vcGApLNmqVxqnj">
-      <img src="https://www.kindpng.com/picc/m/230-2304116_grand-piano-piano-with-shadow-roses-piano-music.png"> -->
-      <img src="https://lh3.googleusercontent.com/cm1MoUrCybl64HOBAAcQMkgsNQAEuP3INmcj_cMY4hQXXDF1JxxCV6g2E857lEVLoqRZ13Nitv_ZGA07bGsR0A=w780" style="    width: 1000px;
-    
-    transform: translate(-101px, -214px);">
-    </div>
-  </div>
-</div>
+  </header>
+  <!--header end-->
 <div class="section" class="second">
   <div class="container" style="padding-top: 230px;">
     <div class="col four">
@@ -99,13 +103,6 @@
   </div>
 </div>
 
-
-
-  
-
-
-
-
 <script>
 window.onscroll = function() {
   var el = document.getElementsByClassName('header')[0];
@@ -118,6 +115,8 @@ window.onscroll = function() {
   }
 };
 </script>
-   
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html> 
