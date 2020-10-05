@@ -1,0 +1,31 @@
+#banner {
+  background: url("https://i.postimg.cc/YSqd0Zsd/cook.jpg") no-repeat;
+  background-size: cover;
+  height: 450px;
+  background-position: 0 0;
+}
+
+@media screen and (max-width: 768px) {
+  #banner {
+    background-size: cover;
+    height: 300px;
+    background-position: right bottom;
+  }
+
+  #banner h1 {
+    font-size: 3.2rem !important;
+  }
+
+  #banner p {
+    padding: 0.5rem;
+    text-align: center;
+  }
+}
+
+h5.card-title {
+  line-height: 1.6rem;
+}
+
+#footer a {
+  padding: 0.8rem;
+}

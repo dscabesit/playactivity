@@ -36,6 +36,7 @@ body {
 .section.bg {
   background: #dfdfdf;
 }
+
 /*
   Header
 */
@@ -60,7 +61,7 @@ body {
   box-shadow: 0px 1px 3px 0px rgba(50, 50, 50, 0.8);
 }
 
-.header.small > .container > #logo {
+.header.small>.container>#logo {
   height: 40px;
 }
 
@@ -101,14 +102,16 @@ ul.nav li a {
   color: initial;
   text-decoration: initial;
 }
+
 /*
   Slider
 */
 
-.section{
+.section {
   background-color: white;
-  height: 660px;
+  height: 50%;
 }
+
 .section .footer {
   background: #333;
 }
@@ -123,12 +126,13 @@ ul.nav li a {
   font-weight: normal;
   letter-spacing: 1px;
 }
-.slider{
+
+.slider {
   height: 670px;
-  background: linear-gradient(to bottom, #262673,#333399, #ff99cc)
+  background: linear-gradient(to bottom, #262673, #333399, #ff99cc)
 }
 
-.second{
+.second {
   height: 950px;
 }
 
@@ -170,6 +174,7 @@ h1.hero:after {
   background: rgba(255, 255, 255, 0.1);
   cursor: pointer;
 }
+
 /* 
   Columns 
 */
@@ -182,8 +187,8 @@ h1.hero:after {
 }
 
 .col.four {
-  width: 23%;
-  margin: 0 1%;
+  width: 20%;
+  margin: 0 0;
 }
 
 .col.three {
@@ -250,12 +255,12 @@ h1.hero:after {
   width: 50px;
 }
 
-.col:hover > .icon {
+.col:hover>.icon {
   background: blue;
   color: white;
 }
 
-.col:hover > .icon.side {
+.col:hover>.icon.side {
   background: initial;
   color: initial;
 }
@@ -263,6 +268,7 @@ h1.hero:after {
 .responsivegroup {
   display: none;
 }
+
 /*
   Column specifics
 */
@@ -299,16 +305,17 @@ h1.hero:after {
 .col span.feature {
   font-size: 20px;
 }
+
 /*
   Text
 */
 
-.container > h1:not(.hero) {
+.container>h1:not(.hero) {
   margin-bottom: 30px;
   text-align: center;
 }
 
-.container > h1:after {
+.container>h1:after {
   content: "";
   width: 30px;
   position: relative;
@@ -327,8 +334,8 @@ h2 {
 }
 
 .left,
-.left > h1,
-.left > p {
+.left>h1,
+.left>p {
   text-align: left;
 }
 
@@ -339,6 +346,7 @@ h2 {
 .reset:after {
   display: none !important;
 }
+
 /* 
   Slider with Content
 */
@@ -350,6 +358,7 @@ h2 {
 .white a {
   color: #fff;
 }
+
 /*
   Responsive
 */
@@ -364,10 +373,12 @@ h2 {
   .container {
     width: 95%;
   }
+
   .col.four {
     width: 48%;
     margin: 1%;
   }
+
   .col.three {
     display: block;
     width: 95%;
@@ -375,10 +386,12 @@ h2 {
     margin: 0 auto;
     float: none;
   }
+
   .header {
     height: auto;
     background: #eee;
   }
+
   #logo {
     position: initial;
     float: none;
@@ -386,19 +399,23 @@ h2 {
     transform: none;
     margin: 10px auto 0 auto;
   }
+
   ul.nav {
     float: none;
     display: block;
     text-align: center;
     margin: 0 auto;
   }
+
   ul.nav li {
     float: initial;
     display: inline-block;
   }
+
   .responsivegroup {
     display: block;
   }
+
   .responsivegroup:after {
     content: "";
     display: table;
@@ -425,17 +442,23 @@ h2 {
 }
 
 @media all and (max-width:450px) {
-  .col, .col.four, .col.three, .col.two {
+
+  .col,
+  .col.four,
+  .col.three,
+  .col.two {
     display: block;
     width: 95%;
     padding: 0;
     margin: 0 auto;
     float: none;
   }
+
   .col.extrapad {
     padding: 1%;
     margin-bottom: 10px;
   }
+
   .group {
     display: none;
   }
