@@ -9,7 +9,7 @@
 *Clone the Forked repository
 
 ### git clone:
- *https://github.com/ravi9607/playactivity.git<br>
+ https://github.com/<USER_NAME>/<REPO_NAME><br>
 Add Scripts and necessary changes.
 
 ### git add:
