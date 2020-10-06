@@ -87,12 +87,12 @@ ul.nav li {
   position: relative;
 }
 
-ul.nav li a {
+ul.nav li a, ul.nav li button{
   transition: color 0.2s linear;
   font-size: 18px;
 }
 
-ul.nav li:hover a {
+ul.nav li:hover a, ul.nav li:hover button {
   color: blue;
 }
 
@@ -100,6 +100,86 @@ ul.nav li a {
   padding: 21px;
   color: initial;
   text-decoration: initial;
+}
+
+ul.nav li button{ 
+  border: none;
+  background-color: transparent;
+  padding-left: 21px;
+  padding-right: 21px;
+  color: initial;
+  text-decoration: initial;
+}
+
+.modal button {
+  background-color: #262673;
+  color: white;
+  padding: 0px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  height: 35px;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+}
+
+.modalContent .cancelbtn {
+  background-color: #f44336;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+  padding-top: 60px;
+}
+
+.modalContent{
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  border: 1px solid #888;
+  width: 50%;
+}
+
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
 }
 /*
   Slider
