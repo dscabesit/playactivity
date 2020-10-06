@@ -1,12 +1,11 @@
 # Welcome to Playactivity
 
-</br>
-
+<p align="center"><img src="https://static.vecteezy.com/system/resources/previews/000/371/241/non_2x/welcome-hand-drawn-text-trendy-hand-lettering-quote-fashion-graphics-art-print-for-posters-and-greeting-cards-design-calligraphic-isolated-quote-in-black-ink-vector-illustration.jpg" width=40%></p>
 ### 1.How to Contribute
 ***
-**- Fork the Repository  **
+**- Fork the Repository**
 
-**- Clone the Forked repository  **
+**- Clone the Forked repository**
 
 </br>
 
@@ -60,8 +59,15 @@ git push
 ```
 </br>
 
+
+### 7.⭐ Please dont forget to star this repository and contribute to it ⭐
+***
+<p align="center"><img src="https://media.giphy.com/media/2UpzC3iPenf44/source.gif" width=40%></p>
+
+</br>
+
 ### 8.My Contacts
 ***
-<a href="https://www.linkedin.com/in/hari-om-kushwaha-6a698a192"><img src="https://www.flaticon.com/svg/static/icons/svg/174/174857.svg" width=3%></a>  [Linkedin](https://www.linkedin.com/in/hari-om-kushwaha-6a698a192)
+<img src="https://www.flaticon.com/svg/static/icons/svg/174/174857.svg" width=3%>  [Linkedin](https://www.linkedin.com/in/hari-om-kushwaha-6a698a192)
 
-<a href="https://www.instagram.com/_itzhari_"><img src="https://www.flaticon.com/svg/static/icons/svg/174/174855.svg" width=3%></a> [Instagram](https://www.instagram.com/_itzhari_)
+<img src="https://www.flaticon.com/svg/static/icons/svg/174/174855.svg" width=3%>  [Instagram](https://www.instagram.com/_itzhari_)
