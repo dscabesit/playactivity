@@ -1,6 +1,7 @@
 # Welcome to Playactivity
 
 <p align="center"><img src="https://static.vecteezy.com/system/resources/previews/000/371/241/non_2x/welcome-hand-drawn-text-trendy-hand-lettering-quote-fashion-graphics-art-print-for-posters-and-greeting-cards-design-calligraphic-isolated-quote-in-black-ink-vector-illustration.jpg" width=40%></p>
+
 ### 1.How to Contribute
 ***
 **- Fork the Repository**
