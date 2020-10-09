@@ -30,7 +30,47 @@
         <li><a href="dance.html">Dance</a></li>
         <li><a href="game.html">Game</a></li>
         <li><a href="books.html">Books</a></li>
+        <li><button onclick="document.getElementById('login').style.display='block';" style="width:auto;">Login</button></li>
+        <li><button onclick="document.getElementById('register').style.display='block';" style="width:auto;">Register</button></li>
+
       </ul>
+    </div>
+    <div id="login" class="modal">
+  
+      <form class="modalContent animate" action="" method="post">
+        <span onclick="document.getElementById('login').style.display='none';" id="close" class="close" title="close">&times;</span>
+    
+        <div class="container">
+          <b>Username</b><input type="text" placeholder="Enter Username" name="username" required>
+    
+          <b>Password</b><input type="password" placeholder="Enter Password" name="password" required>
+            
+          <button type="submit">Login</button>
+        </div>
+        <div class="container">
+          <button onclick="document.getElementById('login').style.display='none';"; type="button" id="close" class="cancelbtn">Cancel</button>
+          <span class="password">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+    </div>
+    <div id="register" class="modal">
+  
+      <form class="modalContent animate" action="" method="post">
+        <span onclick="document.getElementById('register').style.display='none';"; id="close" class="close" title="close">&times;</span>
+    
+        <div class="container">
+          <b>Email</b><input type="text" placeholder="Enter Email" name="username" required>
+    
+          <b>Password</b><input type="password" placeholder="Enter Password" name="password" required>
+
+          <b>Confirm Password</b><input type="password" placeholder="Re-enter Password" name="password" required>
+            
+          <button type="submit">Register</button>
+        </div>
+        <div class="container">
+          <button onclick="document.getElementById('register').style.display='none';"; type="button" id="close" class="cancelbtn">Cancel</button>
+        </div>
+      </form>
     </div>
   </div>
 </div>
@@ -170,11 +210,7 @@
 
 </footer>
 <!-- Footer -->
-
-            
-
-
-
+      
 
 <script>
 window.onscroll = function() {
@@ -187,6 +223,17 @@ window.onscroll = function() {
       el.classList.remove(className);
   }
 };
+
+window.onclick = function(event) {
+  var loginmodal = document.getElementById('login');
+  var regmodal = document.getElementById('register');
+    if (event.target == document.getElementById('closelogin')){
+        loginmodal.style.display = "none";
+    }
+    if (event.target == document.getElementById('closeregister')){
+        regmodal.style.display = "none";
+    }
+}
 </script>
    
 </body>
