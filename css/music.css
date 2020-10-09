@@ -6,6 +6,43 @@
   background-position: 0 0;
 }
 
+ul.nav {
+  float: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.nav li {
+  float: left;
+  position: relative;
+}
+
+ul.nav li a, ul.nav li button{
+  transition: color 0.2s linear;
+  font-size: 18px;
+}
+
+ul.nav li:hover a, ul.nav li:hover button {
+  color: white;
+}
+
+ul.nav li a {
+  padding: 21px;
+  color: initial;
+  text-decoration: initial;
+  color: rgb(138, 138, 138);
+}
+
+ul.nav li button{ 
+  border: none;
+  background-color: transparent;
+  padding-left: 21px;
+  padding-right: 21px;
+  color: initial;
+  text-decoration: initial;
+}
+
 @media screen and (max-width:768px){
   
  #banner {
