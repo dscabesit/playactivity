@@ -34,3 +34,7 @@ h5.card-title{
 #footer a {
     padding: 0.8rem;
 }
+
+.card-img-top{
+  height: 300px;
+}
