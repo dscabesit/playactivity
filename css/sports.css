@@ -6,6 +6,21 @@
   background-position: 0 0;
 }
 
+h4.title {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.img-size {
+  height: 200px !important;
+}
+.card-body {
+  text-align: left;
+}
+.card-body > a {
+  width: 100%;
+}
+
 @media screen and (max-width:768px){
   
  #banner {
@@ -24,6 +39,8 @@
   }
   
 }
+
+
 
 
 h5.card-title{
