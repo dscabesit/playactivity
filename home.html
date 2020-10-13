@@ -1,240 +1,296 @@
 <!DOCTYPE html>
 <html>
-<head>  
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="css/home.css">
-<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
-<style>
-   div.row {
-        text-align: center;
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="css/home.css" />
+  <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" />
+  <style>
+    div.row {
+      text-align: center;
     }
-</style>
-<title>Home</title>
+  </style>
+  <script src="./script/darkMode.js" defer></script>
+  <title>Home</title>
 </head>
+
 <body>
-
-
+  <button class="toggle-btn">Lights off</button>
   <div class="hold">
-  <div class="header">
-    <div class="container">
-      <div id="logo">
-        <h2 class="font-italic">
-          Play
-          <span class="badge badge-primary shadow">Activity</span>
-        </h2>
+    <div class="header">
+      <div class="container">
+        <div id="logo">
+          <h2 class="font-italic">
+            <span class="title-text">Play</span>
+            <span class="badge badge-primary shadow">Activity</span>
+          </h2>
+        </div>
+        <ul class="nav">
+          <li><a href="sport.html">Sports</a></li>
+          <li><a href="music.html">Music</a></li>
+          <li><a href="dance.html">Dance</a></li>
+          <li><a href="game.html">Game</a></li>
+          <li><a href="books.html">Books</a></li>
+          <li>
+            <button onclick="document.getElementById('login').style.display='block';" style="width: auto">
+              Login
+            </button>
+          </li>
+          <li>
+            <button onclick="document.getElementById('register').style.display='block';" style="width: auto">
+              Register
+            </button>
+          </li>
+        </ul>
       </div>
-      <ul class="nav">
-        <li><a href="sport.html">Sports</a></li>
-        <li><a href="music.html">Music</a></li>
-        <li><a href="dance.html">Dance</a></li>
-        <li><a href="game.html">Game</a></li>
-        <li><a href="books.html">Books</a></li>
-        <li><button onclick="document.getElementById('login').style.display='block';" style="width:auto;">Login</button></li>
-        <li><button onclick="document.getElementById('register').style.display='block';" style="width:auto;">Register</button></li>
+      <div id="login" class="modal">
+        <form class="modalContent animate" action="" method="post">
+          <span onclick="document.getElementById('login').style.display='none';" id="close" class="close"
+            title="close">&times;</span>
 
-      </ul>
-    </div>
-    <div id="login" class="modal">
-  
-      <form class="modalContent animate" action="" method="post">
-        <span onclick="document.getElementById('login').style.display='none';" id="close" class="close" title="close">&times;</span>
-    
-        <div class="container">
-          <b>Username</b><input type="text" placeholder="Enter Username" name="username" required>
-    
-          <b>Password</b><input type="password" placeholder="Enter Password" name="password" required>
-            
-          <button type="submit">Login</button>
-        </div>
-        <div class="container">
-          <button onclick="document.getElementById('login').style.display='none';"; type="button" id="close" class="cancelbtn">Cancel</button>
-          <span class="password">Forgot <a href="#">password?</a></span>
-        </div>
-      </form>
-    </div>
-    <div id="register" class="modal">
-  
-      <form class="modalContent animate" action="" method="post">
-        <span onclick="document.getElementById('register').style.display='none';"; id="close" class="close" title="close">&times;</span>
-    
-        <div class="container">
-          <b>Email</b><input type="text" placeholder="Enter Email" name="username" required>
-    
-          <b>Password</b><input type="password" placeholder="Enter Password" name="password" required>
+          <div class="container">
+            <b>Username</b><input type="text" placeholder="Enter Username" name="username" required />
 
-          <b>Confirm Password</b><input type="password" placeholder="Re-enter Password" name="password" required>
-            
-          <button type="submit">Register</button>
-        </div>
-        <div class="container">
-          <button onclick="document.getElementById('register').style.display='none';"; type="button" id="close" class="cancelbtn">Cancel</button>
-        </div>
-      </form>
+            <b>Password</b><input type="password" placeholder="Enter Password" name="password" required />
+
+            <button type="submit">Login</button>
+          </div>
+          <div class="container">
+            <button onclick="document.getElementById('login').style.display='none';" ; type="button" id="close"
+              class="cancelbtn">
+              Cancel
+            </button>
+            <span class="password">Forgot <a href="#">password?</a></span>
+          </div>
+        </form>
+      </div>
+      <div id="register" class="modal">
+        <form class="modalContent animate" action="" method="post">
+          <span onclick="document.getElementById('register').style.display='none';" ; id="close" class="close"
+            title="close">&times;</span>
+
+          <div class="container">
+            <b>Email</b><input type="text" placeholder="Enter Email" name="username" required />
+
+            <b>Password</b><input type="password" placeholder="Enter Password" name="password" required />
+
+            <b>Confirm Password</b><input type="password" placeholder="Re-enter Password" name="password" required />
+
+            <button type="submit">Register</button>
+          </div>
+          <div class="container">
+            <button onclick="document.getElementById('register').style.display='none';" ; type="button" id="close"
+              class="cancelbtn">
+              Cancel
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
   </div>
-</div>
-<div class="section">
-  <div class="slider">
-    <div class="container slidercontent">
-      <h1 class="hero" style="transform: translate(394px, 38px);">Play<br>Activity</h1>
-      
-     <!--  <img src="https://lh3.googleusercontent.com/proxy/HhzRertGgfPRDcGP94ebdoTiGBU1lNW6CpUxufDtkM1MYlUcK7LMtytZE1byYUQSb6ryex7-vfeL6wsBnGRNOlQW4Bu8QLPGlrUFf5vcGApLNmqVxqnj">
+  <div class="section">
+    <div class="slider">
+      <div class="container slidercontent">
+        <h1 class="hero" style="transform: translate(394px, 38px)">
+          Play<br />Activity
+        </h1>
+
+        <!--  <img src="https://lh3.googleusercontent.com/proxy/HhzRertGgfPRDcGP94ebdoTiGBU1lNW6CpUxufDtkM1MYlUcK7LMtytZE1byYUQSb6ryex7-vfeL6wsBnGRNOlQW4Bu8QLPGlrUFf5vcGApLNmqVxqnj">
       <img src="https://www.kindpng.com/picc/m/230-2304116_grand-piano-piano-with-shadow-roses-piano-music.png"> -->
-      <img src="https://lh3.googleusercontent.com/cm1MoUrCybl64HOBAAcQMkgsNQAEuP3INmcj_cMY4hQXXDF1JxxCV6g2E857lEVLoqRZ13Nitv_ZGA07bGsR0A=w780" style="    width: 1000px;
-    
-    transform: translate(-101px, -214px);">
+        <img
+          src="https://lh3.googleusercontent.com/cm1MoUrCybl64HOBAAcQMkgsNQAEuP3INmcj_cMY4hQXXDF1JxxCV6g2E857lEVLoqRZ13Nitv_ZGA07bGsR0A=w780"
+          style="
+              width: 1000px;
+
+              transform: translate(-101px, -214px);
+            " />
+      </div>
     </div>
   </div>
-</div>
-<div class="section" class="second">
-  <div class="container" style="padding-top: 230px;">
-    <div class="col four">
-      <h1 class="icon"><i class="far fa-futbol"></i></h1>
-      <h1 class="service">Sports</h1>
-      <p>An activity involving physical exertion and skill in which an individual or team competes against another or others for entertainment.</p>
+  <div class="section second">
+    <div class="container second">
+      <div class="col four">
+        <h1 class="icon"><i class="far fa-futbol"></i></h1>
+        <h1 class="service">Sports</h1>
+        <p>
+          An activity involving physical exertion and skill in which an
+          individual or team competes against another or others for
+          entertainment.
+        </p>
+      </div>
+      <div class="col four">
+        <h1 class="icon"><i class="fas fa-music"></i></h1>
+        <h1 class="service">Music</h1>
+        <p>
+          Vocal or instrumental sounds (or both) combined in such a way as to
+          produce beauty of form, harmony, and expression of emotion.
+        </p>
+      </div>
+      <div class="responsivegroup"></div>
+      <div class="col four">
+        <h1 class="icon"><i class="fas fa-child"></i></h1>
+        <h1 class="service">Dance</h1>
+        <p>
+          Dance, the movement of the body in a rhythmic way, usually to music
+          and within a given space, for the purpose of expressing an idea or
+          emotion
+        </p>
+      </div>
+      <div class="col four">
+        <h1 class="icon"><i class="fas fa-gamepad"></i></h1>
+        <h1 class="service">Game</h1>
+        <p>
+          An activity that one engages in for amusement or fun. Eager or
+          willing to do something new or challenging work
+        </p>
+      </div>
+      <div class="col four">
+        <h1 class="icon"><i class="fas fa-book"></i></h1>
+        <h1 class="service">Books</h1>
+        <p>
+          Reading is an act of understanding and comprehending the text
+          written to give a valuable meaning to it and for drawing conclusion
+          and opinion
+        </p>
+      </div>
+      <div class="group"></div>
     </div>
-    <div class="col four">
-      <h1 class="icon"><i class="fas fa-music"></i></h1>
-      <h1 class="service">Music</h1>
-      <p>Vocal or instrumental sounds (or both) combined in such a way as to produce beauty of form, harmony, and expression of emotion.</p>
-    </div>
-    <div class="responsivegroup"></div>
-    <div class="col four">
-      <h1 class="icon"><i class="fas fa-child"></i></h1>
-      <h1 class="service">Dance</h1>
-      <p>Dance, the movement of the body in a rhythmic way, usually to music and within a given space, for the purpose of expressing an idea or emotion</p>
-    </div>
-    <div class="col four">
-      <h1 class="icon"><i class="fas fa-gamepad"></i></h1>
-      <h1 class="service">Game</h1>
-      <p>An activity that one engages in for amusement or fun. Eager or willing to do something new or challenging work</p>
-    </div>
-    <div class="col four" style="float: left;">
-      <h1 class="icon"><i class="fas fa-book"></i></h1>
-      <h1 class="service">Books</h1>
-      <p>Reading is an act of understanding and comprehending the text written to give a valuable meaning to it and for drawing conclusion and opinion</p>
-    </div>
-    <div class="group"></div>
   </div>
-</div>
 
+  <div class="section bg">
+    <div class="container">
+      <h1>Importance</h1>
+      <h2>Why activity is important</h2>
+      <!-- <div class="group margin"></div> -->
+      <div class="activity-sec">
+        <div class="col two bg extrapad">
+          <h1 class="icon side"><i class="fas fa-hand-point-right"></i></h1>
+          <p class="side">
+            Sport develops a sense of friendliness among the children and
+            develop their team spirit. It helps children to develop mental and
+            physical toughness. Sport shapes their body and make it strong and
+            active. ..
+          </p>
+        </div>
+        <div class="col two bg extrapad">
+          <h1 class="icon side"><i class="fas fa-hand-point-right"></i></h1>
 
-<div class="section bg">
-  <div class="container">
-    <h1>Importance </h1>
-    <h2>Why activity is important</h2>
-    <div class="group margin"></div>
-    <div class="col two bg margin extrapad">
-      <h1 class="icon side"><i class="fas fa-hand-point-right"></i></h1>
-      
-      <p class="side">Sport develops a sense of friendliness among the children and develop their team spirit. It helps children to develop mental and physical toughness. Sport shapes their body and make it strong and active. ..</p>
-    </div>
-    <div class="col two bg margin extrapad">
-      <h1 class="icon side"><i class="fas fa-hand-point-right"></i></h1>
-      
-      <p class="side"> Listening to music can benefit overall well-being, help regulate emotions, and create happiness in everyday life. Music can raise someone's mood, get them excited, or make them calm and relaxed</p>
-    </div>
-    <div class="group margin"></div>
-    <div class="col two bg margin extrapad">
-      <h1 class="icon side"><i class="fas fa-hand-point-right"></i></h1>
-      <!-- <span class="feature side">Wow wow</span><span class="side"> - Wow</span> -->
-      <p class="side">Through dance, students learn teamwork, focus, and improvisational skills.Dance awakens new perceptions in children which help them learn and think in new ways</p>
-    </div>
-    <div class="col two bg margin extrapad">
-      <h1 class="icon side"><i class="fas fa-hand-point-right"></i></h1>
-      
-      <p class="side">Reading  books enhances our language skills and develops fluency,allowing us to express our thoughts and ideas better and quench our thirst for knowledge.</p>
-    </div>
-    
-    <div class="group margin"></div>
-    <div class="col two bg margin extrapad">
-      <h1 class="icon side"><i class="fas fa-hand-point-right"></i></h1>
-      
-      <p class="side">Increase children's self-confidence and self-esteem as they master games. provide points of common interest and opportunities for socialization. develop skills in reading, math, technology and problem-solving.</p>
-    </div>
-    <div class="group"></div>
-  </div>
-</div>
+          <p class="side">
+            Listening to music can benefit overall well-being, help regulate
+            emotions, and create happiness in everyday life. Music can raise
+            someone's mood, get them excited, or make them calm and relaxed
+          </p>
+        </div>
+        <div class="group margin"></div>
+        <div class="col two bg  extrapad">
+          <h1 class="icon side"><i class="fas fa-hand-point-right"></i></h1>
+          <!-- <span class="feature side">Wow wow</span><span class="side"> - Wow</span> -->
+          <p class="side">
+            Through dance, students learn teamwork, focus, and improvisational
+            skills.Dance awakens new perceptions in children which help them
+            learn and think in new ways
+          </p>
+        </div>
+        <div class="col two bg  extrapad">
+          <h1 class="icon side"><i class="fas fa-hand-point-right"></i></h1>
 
+          <p class="side">
+            Reading books enhances our language skills and develops
+            fluency,allowing us to express our thoughts and ideas better and
+            quench our thirst for knowledge.
+          </p>
+        </div>
 
-<!-- Footer -->
-<footer class="page-footer font-small cyan darken-3">
+        <div class="group margin"></div>
+        <div class="col two bg  extrapad">
+          <h1 class="icon side"><i class="fas fa-hand-point-right"></i></h1>
 
-  <!-- Footer Elements -->
-  <div class="container">
-
-    <!-- Grid row-->
-    <div class="row">
-
-      <!-- Grid column -->
-      <div class="col-md-12 py-5">
-        <div class="mb-5 flex-center">
-
-          <!-- Facebook -->
-          <a class="fb-ic">
-            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-          </a>
-          <!-- Twitter -->
-          <a class="tw-ic">
-            <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-          </a>
-          <!-- Google +-->
-          <a class="gplus-ic">
-            <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-          </a>
-          <!--Linkedin -->
-          <a class="li-ic">
-            <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-          </a>
-          <!--Instagram-->
-          <a class="ins-ic">
-            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-          </a>
-          
+          <p class="side">
+            Increase children's self-confidence and self-esteem as they master
+            games. provide points of common interest and opportunities for
+            socialization. develop skills in reading, math, technology and
+            problem-solving.
+          </p>
         </div>
       </div>
-      <!-- Grid column -->
 
+      <div class="group"></div>
     </div>
-    <!-- Grid row-->
-
   </div>
-  <!-- Footer Elements -->
 
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    Play Activity
-  </div>
-  <!-- Copyright -->
+  <!-- Footer -->
+  <footer class="page-footer font-small cyan darken-3">
+    <!-- Footer Elements -->
+    <div class="container">
+      <!-- Grid row-->
+      <div class="row">
+        <!-- Grid column -->
+        <div class="col-md-12 py-5 flex-center">
+          <div class="mb-5 flex-center">
+            <!-- Facebook -->
+            <a class="fb-ic">
+              <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x">
+              </i>
+            </a>
+            <!-- Twitter -->
+            <a class="tw-ic">
+              <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x">
+              </i>
+            </a>
+            <!-- Google +-->
+            <a class="gplus-ic">
+              <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x">
+              </i>
+            </a>
+            <!--Linkedin -->
+            <a class="li-ic">
+              <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x">
+              </i>
+            </a>
+            <!--Instagram-->
+            <a class="ins-ic">
+              <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x">
+              </i>
+            </a>
+          </div>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row-->
+    </div>
+    <!-- Footer Elements -->
 
-</footer>
-<!-- Footer -->
-      
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">
+      © 2020 Copyright: Play Activity
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
 
-<script>
-window.onscroll = function() {
-  var el = document.getElementsByClassName('header')[0];
-  var className = 'small';
-  if (el.classList) {
-    if (window.scrollY > 10)
-      el.classList.add(className);
-    else
-      el.classList.remove(className);
-  }
-};
+  <script>
+    window.onscroll = function () {
+      var el = document.getElementsByClassName("header")[0];
+      var className = "small";
+      if (el.classList) {
+        if (window.scrollY > 10) el.classList.add(className);
+        else el.classList.remove(className);
+      }
+    };
 
-window.onclick = function(event) {
-  var loginmodal = document.getElementById('login');
-  var regmodal = document.getElementById('register');
-    if (event.target == document.getElementById('closelogin')){
+    window.onclick = function (event) {
+      var loginmodal = document.getElementById("login");
+      var regmodal = document.getElementById("register");
+      if (event.target == document.getElementById("closelogin")) {
         loginmodal.style.display = "none";
-    }
-    if (event.target == document.getElementById('closeregister')){
+      }
+      if (event.target == document.getElementById("closeregister")) {
         regmodal.style.display = "none";
-    }
-}
-</script>
-   
+      }
+    };
+  </script>
 </body>
-</html> 
+
+</html>
