@@ -1,194 +1,219 @@
 <!DOCTYPE html>
 <html>
-<head>
-    
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="css/books.css">
-<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
-</head>
-<body>
+  <head>
+    <!-- Responsive tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!--header-->
-<header id="header" class="sticky-top">
-  <!--navbar-->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark font-italic">
-    <div class="container">
-      <!--brand-->
-      <a href="#" class="navbar-brand">
-        <!--logo-->
-        <h2 class="font-italic">
-          Play
-          <span class="badge badge-primary shadow">Activity</span>
-        </h2>
-      </a>
+    <!-- Page styles -->
+    <link rel="stylesheet" type="text/css" href="css/books.css">
+    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
 
-      <!--nav button-->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navlinks">
-                    <span class="navbar-toggler-icon"></span>
+    <title>Books - Play Activity</title>
+  </head>
+  <body>
+    <!--header-->
+    <header id="header" class="sticky-top">
+      <!--navbar-->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark font-italic">
+        <div class="container">
+          <!--brand-->
+          <a href="#" class="navbar-brand">
+            <!--logo-->
+            <h2 class="font-italic">
+              Play
+              <span class="badge badge-primary shadow">Activity</span>
+            </h2>
+          </a>
+
+          <!--nav button-->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navlinks">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!--nav Links-->
+          <div class="collapse navbar-collapse justify-content-end" id="navlinks">
+            <ul class="navbar-nav text-center">
+              <!--home-->
+              <li class="nav-item ml-1">
+                <a href="home.html" class="nav-link">Home</a>
+              </li>
+              <!--products-->
+              <li class="nav-item ml-1">
+                <a href="sport.html" class="nav-link">Sports</a>
+              </li>
+               <li class="nav-item ml-1">
+                <a href="music.html" class="nav-link">Music</a>
+              </li>
+              <li class="nav-item ml-1">
+                <a href="game.html" class="nav-link">Games</a>
+              </li>
+              <li class="nav-item active">
+                <a href="#" class="nav-link">Books</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--nav end-->
+    </header>
+    <!--header end-->
+
+    <main>
+      <!--banner-->
+      <article id="banner" class="jumbotron jumbotron-fluid">
+        <div class="font-italic pl-4 mt-4 text-light">
+          <h1 class="display-1 font-italic">
+            Play
+            <span class="badge badge-primary shadow">Books</span>
+          </h1>
+
+          <p class="lead mt-5" style="color: black;">
+            <b>Read them with dedication and zeal</b>
+            <i class="fa fa-book ml-1 text-danger"></i>
+          </p>
+        </div>
+      </article>
+      <!--banner end-->
+
+      <div class="container mt-4">
+
+        <h4 class="text-center font-italic mb-4 booksTitle">Books List
+          <span class="fa fa-star fa-lg text-warning"></span>
+        </h4>
+        
+        <div class="row justify-content-center font-italic mt-4">
+
+          <div class="col-md-4">
+            <!--product card-->
+            <article class="card text-center font-italic mb-4">
+              <!--product image-->
+              <img src="https://5.imimg.com/data5/NR/ZV/PY/ANDROID-62042403/product-jpeg-500x500.jpg" alt="image" class="card-img-top">
+              <div class="card-body">
+                <!-- name-->
+                <h5 class="card-title">
+                 Harry Potter and the Cursed Child
+                </h5>
+                <!--more info button-->
+                <a href="#" class="btn btn-success mb-2">
+                  <i class="fa fa-info-circle" aria-hidden="true"></i>
+                  More info
+                </a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-4">
+            <!--product card-->
+            <article class="card text-center font-italic mb-4">
+              <!--product image-->
+              <img src="invisible.jpg" alt="image" class="card-img-top" width="348px" height="542.05px">
+              <div class="card-body">
+                <!-- name-->
+                <h5 class="card-title">
+                  The Invisible Man
+                </h5>
+                <!--more info button-->
+                <a href="#" class="btn btn-success mb-2">
+                  <i class="fa fa-info-circle" aria-hidden="true"></i>
+                  More info
+                </a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-4">
+            <!--product card-->
+            <article class="card text-center font-italic mb-4">
+              <!--product image-->
+              <img src="beloved.jpg" alt="image" class="card-img-top" width="348px" height="542.05px">
+              <div class="card-body">
+                <!-- name-->
+                <h5 class="card-title">
+                 Beloved
+                </h5>
+                <!--more info button-->
+                <a href="#" class="btn btn-success mb-2">
+                  <i class="fa fa-info-circle" aria-hidden="true"></i>
+                  More info
+                </a>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-md-4">
+            <!--product card-->
+            <article class="card text-center font-italic mb-4">
+              <!--product image-->
+              <img src="catcher_in_the_rye.jpg" alt="The Catcher In The Rye book cover" class="card-img-top" width="348px" height="542.05px">
+              <div class="card-body">
+                <!-- name-->
+                <h5 class="card-title">
+                 The Catcher in the Rye
+                </h5>
+                <!--more info button-->
+                <button type="button" class="btn btn-success mb-2" data-toggle="modal" data-target="#exampleModal">
+                  <i class="fa fa-info-circle" aria-hidden="true"></i>
+                  More info
                 </button>
+              </div>
+            </article>
+          </div>
 
-      <!--nav Links-->
-      <div class="collapse navbar-collapse justify-content-end" id="navlinks">
-        <ul class="navbar-nav text-center">
-          <!--home-->
-          <li class="nav-item active">
-            <a href="home.html" class="nav-link">Home</a>
-          </li>
-          <!--products-->
-          <li class="nav-item ml-1">
-            <a href="sport.html" class="nav-link">sports</a>
-          </li>
-           <li class="nav-item ml-1">
-            <a href="dance.html" class="nav-link">Dance</a>
-          </li>
-          <li class="nav-item ml-1">
-            <a href="music.html" class="nav-link">Music</a>
-          </li>
-        
-         
-     
-          </li>
-        </ul>
+        </div>
+      </div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">The Catcher in the Rye</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>
+          The novel details two days in the life of 16-year-old Holden Caulfield after he has been expelled from prep school.
+        </p>
+        <p>
+          Confused and disillusioned, Holden searches for truth and rails against the “phoniness” of the adult world. He ends up exhausted and emotionally unstable.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>
     </div>
-  </nav>
-  <!--nav end-->
-</header>
-<!--header end-->
+  </div>
+</div>
+    </main>
 
-<main>
-  <!--banner-->
-  <article id="banner" class="jumbotron jumbotron-fluid">
-    <div class="font-italic pl-4 mt-4 text-light">
-      <h1 class="display-1 font-italic">
-        Play
-        <span class="badge badge-primary shadow">Books</span>
-      </h1>
-
-      <p class="lead mt-5" style="color: black;">
-        <b>Read them with dedication and zeal</b>
-        <i class="fa fa-book ml-1 text-danger"></i>
+    <footer id="footer" class="container-fluid mt-2">
+      <div class="d-flex justify-content-center">
+        <a href="#">
+          <i class="fab fa-instagram fa-3x"></i>
+        </a>
+        <a href="#">
+          <i class="fab fa-google-plus fa-3x"></i>
+        </a>
+        <a href="#">
+          <i class="fab fa-facebook fa-3x"></i>
+        </a>
+        <a href="#">
+          <i class="fab fa-twitter fa-3x"></i>
+        </a>
+      </div>
+      <p class="text-muted text-center mt-2 font-italic">
+        <!--copyright information-->
+        Copyright &copy; 2020 Dance
       </p>
-    </div>
-  </article>
-  <!--banner end-->
-
-  <div class="container mt-4">
-
-    <h4 class="text-center font-italic mb-4">Books List
-      <span class="fa fa-star fa-lg text-warning"></span>
-    </h4>
-    
-    <div class="row justify-content-center font-italic mt-4">
-
-      <div class="col-md-4">
-        <!--product card-->
-        <article class="card text-center font-italic mb-4">
-          <!--product image-->
-          <img src="https://5.imimg.com/data5/NR/ZV/PY/ANDROID-62042403/product-jpeg-500x500.jpg" alt="image" class="card-img-top">
-          <div class="card-body">
-            <!-- name-->
-            <h5 class="card-title">
-             Harry Potter and the Cursed Child
-            </h5>
-           
-          
-            
-        
-
-            <!--more info button-->
-            <a href="#" class="btn btn-success mb-2">
-                            <i class="fa fa-info-circle" aria-hidden="true"></i>
-                            More info
-                        </a>
-            
-          </div>
-        </article>
-      </div>
-
-      <div class="col-md-4">
-        <!--product card-->
-        <article class="card text-center font-italic mb-4">
-          <!--product image-->
-          <img src="invisible.jpg" alt="image" class="card-img-top" width="348px" height="542.05px">
-          <div class="card-body">
-            <!-- name-->
-            <h5 class="card-title">
-             The Invisible Man
-            </h5>
-           
-          
-            
-        
-
-            <!--more info button-->
-            <a href="#" class="btn btn-success mb-2">
-                            <i class="fa fa-info-circle" aria-hidden="true"></i>
-                            More info
-                        </a>
-            
-          </div>
-        </article>
-      </div>
-
-      <div class="col-md-4">
-        <!--product card-->
-        <article class="card text-center font-italic mb-4">
-          <!--product image-->
-          <img src="beloved.jpg" alt="image" class="card-img-top" width="348px" height="542.05px">
-          <div class="card-body">
-            <!-- name-->
-            <h5 class="card-title">
-             Beloved
-            </h5>
-           
-          
-            
-        
-
-            <!--more info button-->
-            <a href="#" class="btn btn-success mb-2">
-                            <i class="fa fa-info-circle" aria-hidden="true"></i>
-                            More info
-                        </a>
-            
-          </div>
-        </article>
-      </div>
-
-     
-
-    </div>
-  </div>
-</main>
-
-<footer id="footer" class="container-fluid mt-2">
-
-  <div class="d-flex justify-content-center">
-    <a href="#">
-            <i class="fab fa-instagram fa-3x"></i>
-        </a>
-    <a href="#">
-            <i class="fab fa-google-plus fa-3x"></i>
-        </a>
-    <a href="#">
-            <i class="fab fa-facebook fa-3x"></i>
-        </a>
-    <a href="#">
-            <i class="fab fa-twitter fa-3x"></i>
-        </a>
-  </div>
-  <p class="text-muted text-center mt-2 font-italic">
-
-    <!--copyright information-->
-    Copyright &copy; 2020 Dance
-  </p>
-</footer>
-
-
-  
-
-   
-</body>
+    </footer>
+    <!-- JavaScript for Bootstrap components -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </script>
+  </body>
 </html> 
