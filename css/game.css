@@ -6,6 +6,10 @@
   background-size: cover;
 }
 
+footer{
+  text-align: center;
+}
+
 @media screen and (max-width:768px){
   
  #banner {
@@ -28,9 +32,4 @@
 
 h5.card-title{
   line-height:1.6rem;
-}
-
-
-#footer a {
-    padding: 0.8rem;
 }
