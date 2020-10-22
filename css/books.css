@@ -30,7 +30,6 @@ h5.card-title{
   line-height:1.6rem;
 }
 
-
-#footer a {
-    padding: 0.8rem;
+footer{
+  text-align: center;
 }
