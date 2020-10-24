@@ -344,7 +344,7 @@ h1.hero:after {
 
 .col.four {
   width: 23%;
-  margin: 0 1%;
+  /* margin: 0 1%; */
 }
 
 .col.three {
@@ -354,13 +354,12 @@ h1.hero:after {
 
 .col.two {
   width: 40%;
-  margin: 0 2.5%;
+  margin: 0 5%;
   padding: 0 2.5%;
 }
 
 .col.extrapad {
   padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 .col .service,
@@ -449,7 +448,7 @@ h1.hero:after {
 }
 
 .group.margin {
-  margin-bottom: 80px;
+  margin-bottom: 35px;
 }
 
 .col .imgholder {
